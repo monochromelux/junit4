@@ -271,6 +271,10 @@
                     <test>org/junit/tests/AllTests.java</test>
                     <useSystemClassLoader>true</useSystemClassLoader>
                     <enableAssertions>false</enableAssertions>
+                    
+                    <!-- 테스트 무시 구문 추가 -->
+                    <testFailureIgnore>true</testFailureIgnore>
+                    
                 </configuration>
                 <dependencies>
                     <dependency>
