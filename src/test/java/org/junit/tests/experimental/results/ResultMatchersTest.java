@@ -37,7 +37,7 @@ public class ResultMatchersTest {
 
     @Test
     public void hasFailureContaining_givenResultWithOneFailure() {
-        PrintableResult resultWithOneFailure = new PrintableResult(Collections.singletonList(
+        PrintableResult resultWithOneFailure = new PrintableResult(Collections.singletonList( // NOPMD by admin on 18. 1. 11 ?? 5:00
                 new Failure(Description.EMPTY, new RuntimeException("my failure"))));
 
         assertThat(ResultMatchers.hasFailureContaining("my failure").matches(resultWithOneFailure), is(true));
