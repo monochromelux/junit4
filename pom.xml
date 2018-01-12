@@ -482,12 +482,12 @@
 		        <artifactId>maven-pmd-plugin</artifactId>
 		        <version>3.8</version>
 		    </plugin>
-		    <!-- cobertura 플러그인 추가  -->
+		    <!-- <!-- cobertura 플러그인 추가
 		    <plugin>
 		        <groupId>org.codehaus.mojo</groupId>
 		        <artifactId>cobertura-maven-plugin</artifactId>
 		        <version>2.7</version>
-		    </plugin>
+		    </plugin> -->
 		    <!-- JDepend 플러그인 추가  -->
 		    <plugin>
 		        <groupId>org.codehaus.mojo</groupId>
